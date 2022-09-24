@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Open Sans';
+    background-color: #E9ECF5;
 }
 ul{
     list-style: none ;
@@ -19,6 +20,7 @@ a{
 
 img{
     width:100%;
+    max-height: 80%;
 }
 /*utilities*/
 .text-primary{
@@ -40,6 +42,16 @@ color: #A393C3;
     background-color: #E9ECF5;
 }
 /*Navbar */
+.logo{
+    font-size: 25px;
+    color: #E9ECF5;
+    padding: 10px;
+}
+
+.navbar .logo:hover{
+    border-bottom:#82768f 1px dotted ;
+   
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -53,7 +65,7 @@ color: #A393C3;
     
 }
 
-.navbar a{
+.navbar .light-btn{
 color: white;
 padding: 10px 20px;
 margin: 0 5px ;
@@ -64,9 +76,10 @@ opacity: 0.7;
 .navbar ul{
     display: flex;
 }
-.navbar a:hover{
+.navbar .light-btn:hover{
     border-bottom:#321C4C 2px solid ;
     opacity: 1;
+    background-color:#7e7199;
 }
 .navbar .logo{
     font-weight: 400;
@@ -111,6 +124,7 @@ opacity: 0.7;
 
 .btn:hover{
     opacity: 0.9;
+    
 }
 
 .header::before{
@@ -130,18 +144,110 @@ opacity: 0.7;
 .flex-items{
     display: flex;
     height: 100vh;
-    margin-top: 150px;
-    text-align: center;
-    justify-content: center;
+    margin-top: 130px;
     text-align: center;
 }
 
 .flex-items>div{
     padding:20px;
 }
-.profile.img{
-    height:50%;
+.profile-img{
+width:800px;
+margin: 30px;
 }
-.about{
+.flex-items .profile-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 400px;
+    width:300px;
+    
+}
+.row-one{
+    display: flex;
+    flex-direction: row;
+    
 
 }
+.row-two{
+    display: flex;
+    flex-direction: row;
+    
+}
+.skill{
+    width:150px;
+    margin: 20px;
+    padding: 20px;
+    border:#A3C3D9 1px solid;
+    border-radius: 10px;
+}
+
+.skill:hover{
+background-color: #A3C3D9;
+border:#4e5e68 2px solid;
+}
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.aboutme p{
+    padding: 0 10vw;
+}
+
+
+.follow{
+    padding-top: 15%;
+}
+.about h3{
+    padding: 15px;
+}
+.about h3:hover{
+    border-bottom: 1px dotted #4e5e68;
+}
+
+.links{
+    margin-top: 10px;
+}
+/*projects*/
+.portfolio-header{
+    text-align: center;
+    padding: 5%;
+}
+.projects{
+    height: 100vh;
+    background-color: #dbe0f9;
+}
+
+.project-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.project{
+    border: 1px dotted #82768f;
+    margin:10px;
+}
+/*contact page*/
+
+.contact{
+height: 100vh;
+display: flex;
+
+
+}
+.contact .image{
+    width:30%;
+}
+

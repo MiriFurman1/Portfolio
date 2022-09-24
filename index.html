@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miri Furman</title>
-    
+    <script src="https://kit.fontawesome.com/2d2903601a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/Portfolio/style/normalize.css">
     <link rel="stylesheet" href="/Portfolio/style/style.css">
+    <link rel="stylesheet" href="/Portfolio/style/mobile.css">
 </head>
 <body>
     <header class="header">
         <div class="navbar text-primary">
-            <h1 class="logo">Miri</h1>
+            <a class="logo" href="/Portfolio/index.html"><i class="fa-solid fa-palette "></i></i> Miri</a>
             <nav>
                 <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#Contact">Contact</a></li>
+                    <li><a class="light-btn" href="/Portfolio/index.html">Home</a></li>
+                    <li><a class="light-btn" href="#About">About</a></li>
+                    <li><a class="light-btn" href="#projects">Portfolio</a></li>
+                    <li><a class="light-btn" href="#contact">Contact</a></li>
 
                 </ul>
             </nav>
@@ -31,23 +32,71 @@
         </div>
     </header>
 <main>
-<div class="about" class="blue">
+<div class="about" id="About">
     <div class="flex-items">
         <div class="profile-img">
             <img src="/Portfolio/img/profile.jpg">
         </div>
-        <div class="about">
-            <h1>
-                About Me
+        <div class="aboutme">
+            <h1 class="text-primary">
+                Welcome
             </h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nisi facilis vitae placeat. Quod distinctio, qui cupiditate, sed tenetur, animi est minima molestias velit odit rem quasi dolores quas exercitationem.
+            <p class="text-primary">
+                Hi! My Name is Miri, i'm a 26 years old programmer. This is My portfolio. 
             </p>
+            <h3 class="text-secondary">My skills</h3>
+            <div class="skills">
+                <div class="row-one">
+                    <div class="skill"> <img src="/Portfolio/img/icons8-html-5-240.png"> </div>
+                    <div class="skill"> <img src="/Portfolio/img/icons8-css3-240.png"></div>
+                    <div class="skill"><img src="/Portfolio/img/icons8-javascript-logo-250.png"></div>
+                </div>
+                
+                <div class="row-two">
+                <div class="skill"><img src="/Portfolio/img/icons8-node-js-256.png"></div>
+                <div class="skill"><img src="/Portfolio/img/icons8-react-480.png"></div>
+                <div class="skill"><img src="/Portfolio/img/icons8-mongodb-240.png"></div>
+                
+                </div>
+            
+            </div>
+            <div class="follow" >
+                <h3 class="text-secondary"> Follow Me</h3>
+                <div class="links">
+                <a href="https://www.linkedin.com/in/miri-furman-kodinski-424a0718b/" target="_blank">Linkedin<i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/MiriFurman1" target="_blank">Github<i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="https://app.netlify.com/teams/mirifurman1/overview" target="_blank">Netlify<i class="fa-solid fa-globe fa-2x"></i></a>
+            </div>
+            </div>
         </div>
         
     </div>
 </div>
 
+<div class="projects"id="projects">
+   <div class="portfolio-header"> <h1>My Portfolio</h1> </div>
+    <div class="project-flex">
+        <div class="project1 project">
+            <h3>tesla mockup</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, accusamus.</p></div>
+        
+        <div class="project2 project">
+        <h3>pixar error page</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, accusamus.</p></div>
+        <div class="project3 project" > <h3>hangmen</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, accusamus.</p></div>
+    </div>
+</div>
+
+<div class="contact" id="contact">
+    <div class="image">
+        <img src="/Portfolio/img/computer.jpg">
+        
+    </div>
+    <div class="form">
+        form
+    </div>
+</div>
 </main>
 </body>
 </html>

@@ -1,0 +1,22 @@
+@media (max-width:1000px) and (min-width:800px){
+    .flex-items{
+        height: 150vh;
+    }
+
+    .skill{
+        width:100px;
+    }
+
+@media (max-width:800px){
+    .flex-items{
+        display: block;
+        height: 230vh;
+    }
+    .profile-img{
+        margin-left: 15%;
+        width:70%;
+    }
+}
+.follow{
+    padding-top: 10%;
+ }
