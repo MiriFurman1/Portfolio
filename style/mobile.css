@@ -1,22 +1,56 @@
 @media (max-width:1000px) and (min-width:800px){
     .flex-items{
-        height: 150vh;
+        height: 170vh;
     }
 
     .skill{
         width:100px;
     }
-
-@media (max-width:800px){
+   
+}
+@media (max-width:800px) {
     .flex-items{
         display: block;
-        height: 230vh;
+        height: 350vh;
     }
     .profile-img{
         margin-left: 15%;
         width:70%;
     }
-}
-.follow{
+    .follow{
     padding-top: 10%;
- }
+    }
+    .projects{
+        height: 200vh;
+    }
+}
+
+@media(max-height:800px) and (min-height:500px){
+.flex-items{
+    height:230vh;
+}
+    .follow{
+        margin-top: 5vh;
+    }
+    
+    .projects{
+        height: 250vh;
+    }
+    .project-flex{
+        flex-direction: column;
+    }
+   
+}
+
+@media(max-width:500px){
+.contact{
+    flex-direction: column;
+    
+}
+.form{
+    margin:0;
+    text-align: center;
+}
+}
+
+

@@ -77,15 +77,20 @@
    <div class="portfolio-header"> <h1>My Portfolio</h1> </div>
     <div class="project-flex">
         <div class="project1 project">
+           <div class="project-img"><img src="/img/tesla.jpg"></div> 
             <h3>tesla mockup</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, accusamus.</p>
         <a href="https://tesla-mockup-miri.netlify.app" target="_blank">See the Project</a>
         </div>
         
         <div class="project2 project">
+          <div class="project-img">  <img src="/img/pixar.jpg"></div>
         <h3>pixar error page</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, accusamus.</p></div>
-        <div class="project3 project" > <h3>hangmen</h3>
+
+        <div class="project3 project" > 
+            <div class="project-img"><img src="/img/game.jpg"></div>
+            <h3>hangmen</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, accusamus.</p></div>
     </div>
 </div>
@@ -96,7 +101,27 @@
         
     </div>
     <div class="form">
-        form
+        <h1>Contact Me</h1>
+        <form action="" class="callback-form">
+            <div class="form-control">
+                <label for "name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+            </div>
+
+            <div class="form-control">
+                <label for "email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+            </div>
+
+            <div class="form-control">
+                <label for "phone"></label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Phone">
+            </div>
+
+            <input type="submit" value="send" id="sumbit" class="dark-btn send">
+
+
+        </form>
     </div>
 </div>
 </main>
