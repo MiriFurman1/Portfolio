@@ -11,7 +11,7 @@
 @media (max-width:800px) {
     .flex-items{
         display: block;
-        height: 350vh;
+        height: 130vh;
     }
     .profile-img{
         margin-left: 15%;
@@ -21,36 +21,92 @@
     padding-top: 10%;
     }
     .projects{
-        height: 200vh;
+        height: 70vh;
     }
+    .project{
+        
+        height: 35vh;
+    }
+    .contact{
+        flex-direction: column;
+     }
 }
 
 @media(max-height:800px) and (min-height:500px){
-.flex-items{
-    height:230vh;
-}
+    .flex-items{
+        display: block;
+        height: 350vh;
+    }
+    .profile-img{
+        margin-left: 15%;
+        width:70%;
+    }
+
     .follow{
         margin-top: 5vh;
     }
     
     .projects{
-        height: 250vh;
+        height: 230vh;
     }
     .project-flex{
         flex-direction: column;
     }
-   
+    .contact{
+        flex-direction: column;
+     }
 }
 
 @media(max-width:500px){
-.contact{
-    flex-direction: column;
+    .navbar{
+        height: 50px;
+        flex-direction: column;
+        width: 100vw;
+        
+    }
+    .navbar ul{
+        display: none;
+    }
     
+    .header{
+        height:120vh;
+    }
+
+
+ .contact{
+    flex-direction: column;
+ }
+ .flex-items{
+    height:150vh;
 }
-.form{
-    margin:0;
-    text-align: center;
+.skills{
+    flex-direction: column;
 }
+.row-one{
+    flex-direction: column;
+}
+.row-two{
+    flex-direction: column;
+}
+.about{
+    height: 270vh;
+}
+
+.follow{
+    padding-top: 250%;
+}
+
+.project{
+    width:300px;
+    height: 50vh;
+}
+.projects{
+    height: 170vh;
+}
+.project-flex{
+    flex-direction: column;
+}
+
 }
 
 
