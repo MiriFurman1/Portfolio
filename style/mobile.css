@@ -32,10 +32,10 @@
      }
 }
 
-@media(max-height:800px) and (min-height:500px){
+@media(max-width:800px) and (min-width:500px){
     .flex-items{
         display: block;
-        height: 350vh;
+        height: 170vh;
     }
     .profile-img{
         margin-left: 15%;
@@ -47,7 +47,10 @@
     }
     
     .projects{
-        height: 230vh;
+        height: 200vh;
+    }
+    .project{
+        height:50vh;
     }
     .project-flex{
         flex-direction: column;
@@ -89,11 +92,11 @@
     flex-direction: column;
 }
 .about{
-    height: 270vh;
+    height: 250vh;
 }
 
 .follow{
-    padding-top: 250%;
+    padding-top: 120vh;
 }
 
 .project{
